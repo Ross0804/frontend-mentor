@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/single-price-grid-component-scss-practice-DhZC8fJv-)
 - Live Site URL: [Live Site](https://fem-single-price-grid-component-gamma.vercel.app/)
 
 ## My process
