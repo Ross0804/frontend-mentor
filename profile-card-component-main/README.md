@@ -21,8 +21,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My Solution](https://www.frontendmentor.io/solutions/profile-card-component-scss-practice-pbAVdltBq)
+- Live Site URL: [Live Example](https://frontend-mentor-theta.vercel.app/)
 
 ## My process
 
@@ -45,5 +45,5 @@ images positioned as shown in the design examples.
 
 ## Author
 
-- Website - [Add your name here](https://ross-beale.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/ross0804)
+- Website - [My Website](https://ross-beale.com)
+- Frontend Mentor - [@Ross0804](https://www.frontendmentor.io/profile/ross0804)
