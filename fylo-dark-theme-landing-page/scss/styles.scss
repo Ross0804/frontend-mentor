@@ -1,0 +1,141 @@
+@import 'variables';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
+
+.btn {
+  font-family: 'Raleway', sans-serif;
+  padding: 1.2em;
+  background: linear-gradient(to right, $cyan, $blue);
+  text-decoration: none;
+  margin: 2em auto;
+  display: inline-block;
+  width: 250px;
+  border-radius: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  width: 100%;
+  background-color: $mainBackgroundBlue;
+}
+
+.main-nav {
+  font-family: 'Raleway', sans-serif;
+  padding: 70px 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $introBlue;
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+    padding-left: 55px;
+  }
+}
+
+.intro-container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.intro {
+  width: 100%;
+  height: 1070px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: url(/images/bg-curvy-desktop.svg);
+  background-color: $introBlue;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+  img {
+    width: 100%;
+    margin: 2em;
+  }
+
+  h1 {
+    font-size: 2.5em;
+    line-height: 1.5em;
+    margin-bottom: 2rem;
+  }
+
+  p {
+    margin: 0 auto;
+    font-size: 1.2em;
+    width: 75%;
+  }
+}
+
+.features {
+  width: 800px;
+  height: 500px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+
+  .grid-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    text-align: center;
+
+    h2 {
+      padding: 1em;
+    }
+  }
+}
+
+.about {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+
+  img {
+    height: 100%;
+    width: auto;
+    margin: 1em 3em;
+  }
+
+  h1 {
+    font-size: 3em;
+    width: 70%;
+  }
+
+  p {
+    margin: 2em 0;
+    width: 90%;
+  }
+
+  a {
+    color: $cyan;
+    text-decoration: none;
+    border-bottom: 1px solid $cyan;
+    padding-bottom: .2em;
+
+    img {
+      margin: 0 0 0 .5em;
+      padding: 0;
+    }
+  }
+}
