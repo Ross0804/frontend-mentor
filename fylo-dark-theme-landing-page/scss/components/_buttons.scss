@@ -1,0 +1,10 @@
+.btn {
+  padding: 1em;
+  width: 280px;
+  background: linear-gradient(to right, $ctaOne, $ctaTwo);
+  display: inline-block;
+  margin: 40px 0;
+  color: $white;
+  text-decoration: none;
+  border-radius: 50px;
+}

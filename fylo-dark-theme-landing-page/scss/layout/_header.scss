@@ -1,0 +1,25 @@
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $darkBlueOne;
+
+  img {
+    padding: 70px;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+    padding: 50px;
+  }
+
+  li:last-child {
+    padding-right: 70px;
+  }
+}
+
