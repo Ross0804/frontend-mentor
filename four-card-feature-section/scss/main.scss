@@ -1,0 +1,122 @@
+@import "variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+
+body {
+  background-color: $lightGray;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: $darkBlue;
+}
+
+p {
+  line-height: 1.5;
+  font-weight: 200;
+  font-size: .9em;
+  color: $darkGray;
+}
+
+section {
+  width: 310px;
+  height: 220px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 30px auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+
+  div {
+    height: 100%;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+  img {
+    height: 60px;
+    width: 60px;
+    justify-self: flex-end;
+    align-self: flex-end;
+  }
+}
+
+.intro {
+  background-color: $lightGray;
+  text-align: center;
+  padding: 20px 0;
+  height: auto;
+
+  h1 {
+    font-size: 1.7em;
+  }
+
+  span {
+    font-weight: 200;
+    font-size: 1em;
+  }
+
+  p {
+    font-size: 1.1em;
+    font-weight: 400;
+  }
+}
+
+.card-supervisor {
+  box-shadow: $boxShadowTop $cyan, $boxShadowBottom;
+  grid-area: left;
+}
+
+.card-teambuilder {
+  box-shadow: $boxShadowTop $red, $boxShadowBottom;
+  grid-column: 2;
+  align-self: flex-end;
+}
+
+.card-karma {
+  box-shadow: $boxShadowTop $orange, $boxShadowBottom;
+  grid-column: 2;
+}
+
+.card-calculator {
+  box-shadow: $boxShadowTop $blue, $boxShadowBottom;
+  grid-area: right;
+}
+
+@media(min-width: 1200px) {
+  .container {
+    width: 1050px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "left . right"
+    "left . right";
+    align-items: center;
+    justify-content: center;
+  }
+
+  section {
+    margin-bottom: 10px;
+  }
+
+  .intro {
+    width: 500px;
+
+    h1 {
+      font-size: 2.5em;
+    }
+  }
+
+}
