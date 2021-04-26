@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/Ross0804/frontend-mentor/tree/master/3-column-preview-card-component)
+- Live Site URL: [Live](https://ross0804.github.io/frontend-mentor/3-column-preview-card-component/index.html)
 
 ## My process
 
@@ -45,5 +45,5 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Ross Beale](http://ross-beale.com/index.html)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Ross0804)
