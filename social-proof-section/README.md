@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/Ross0804/frontend-mentor/tree/master/social-proof-section)
+- Live Site URL: [Live Site](https://ross0804.github.io/frontend-mentor/social-proof-section/)
 
 ## My process
 
